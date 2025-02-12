@@ -1,5 +1,6 @@
 Flask
 torch
+torchvision==0.13.1
 Pillow
 opencv-python-headless
 basicsr
