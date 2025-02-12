@@ -1,7 +1,7 @@
 FROM python:3.8-slim
 
-# Install system dependencies including libGL
-RUN apt-get update && apt-get install -y libgl1-mesa-glx
+# Update package lists and install system dependencies including libGL and libglib2.0-0
+RUN apt-get update && apt-get install -y libgl1-mesa-glx libglib2.0-0
 
 WORKDIR /app
 
