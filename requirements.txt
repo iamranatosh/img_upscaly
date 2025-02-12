@@ -2,3 +2,5 @@ Flask
 torch
 Pillow
 opencv-python-headless
+basicsr
+facexlib
